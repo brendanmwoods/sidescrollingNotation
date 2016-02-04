@@ -16,6 +16,7 @@
 		BC0133AC1C6284F400308589 /* sidsecrollingNotationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0133AB1C6284F400308589 /* sidsecrollingNotationUITests.swift */; };
 		BC0133BF1C628A7F00308589 /* simpleNote.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0133BE1C628A7F00308589 /* simpleNote.png */; };
 		BC0133C11C62A94700308589 /* blankStaffDoubleWide.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0133C01C62A94700308589 /* blankStaffDoubleWide.png */; };
+		BC252FC71C63C2B60055E0F0 /* NoteLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC252FC61C63C2B60055E0F0 /* NoteLibrary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		BC0133AD1C6284F400308589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC0133BE1C628A7F00308589 /* simpleNote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simpleNote.png; sourceTree = "<group>"; };
 		BC0133C01C62A94700308589 /* blankStaffDoubleWide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blankStaffDoubleWide.png; sourceTree = "<group>"; };
+		BC252FC61C63C2B60055E0F0 /* NoteLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteLibrary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				BC0133B91C62862E00308589 /* images */,
 				BC01338B1C6284F300308589 /* AppDelegate.swift */,
 				BC01338D1C6284F300308589 /* ViewController.swift */,
+				BC252FC61C63C2B60055E0F0 /* NoteLibrary.swift */,
 				BC01338F1C6284F300308589 /* Main.storyboard */,
 				BC0133921C6284F300308589 /* Assets.xcassets */,
 				BC0133941C6284F300308589 /* LaunchScreen.storyboard */,
@@ -275,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC252FC71C63C2B60055E0F0 /* NoteLibrary.swift in Sources */,
 				BC01338E1C6284F300308589 /* ViewController.swift in Sources */,
 				BC01338C1C6284F300308589 /* AppDelegate.swift in Sources */,
 			);
@@ -503,6 +507,7 @@
 				BC0133B21C6284F400308589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC0133B31C6284F400308589 /* Build configuration list for PBXNativeTarget "sidsecrollingNotationTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				BC0133B51C6284F400308589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC0133B61C6284F400308589 /* Build configuration list for PBXNativeTarget "sidsecrollingNotationUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				BC0133B81C6284F400308589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
