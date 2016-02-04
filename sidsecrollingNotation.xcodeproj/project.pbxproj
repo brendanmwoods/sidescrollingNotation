@@ -14,8 +14,8 @@
 		BC0133961C6284F300308589 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0133941C6284F300308589 /* LaunchScreen.storyboard */; };
 		BC0133A11C6284F400308589 /* sidsecrollingNotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0133A01C6284F400308589 /* sidsecrollingNotationTests.swift */; };
 		BC0133AC1C6284F400308589 /* sidsecrollingNotationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0133AB1C6284F400308589 /* sidsecrollingNotationUITests.swift */; };
-		BC0133BB1C62867E00308589 /* blankStaff.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0133BA1C62867E00308589 /* blankStaff.png */; };
 		BC0133BF1C628A7F00308589 /* simpleNote.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0133BE1C628A7F00308589 /* simpleNote.png */; };
+		BC0133C11C62A94700308589 /* blankStaffDoubleWide.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0133C01C62A94700308589 /* blankStaffDoubleWide.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		BC0133A71C6284F400308589 /* sidsecrollingNotationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sidsecrollingNotationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC0133AB1C6284F400308589 /* sidsecrollingNotationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sidsecrollingNotationUITests.swift; sourceTree = "<group>"; };
 		BC0133AD1C6284F400308589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC0133BA1C62867E00308589 /* blankStaff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blankStaff.png; sourceTree = "<group>"; };
 		BC0133BE1C628A7F00308589 /* simpleNote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simpleNote.png; sourceTree = "<group>"; };
+		BC0133C01C62A94700308589 /* blankStaffDoubleWide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blankStaffDoubleWide.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +133,8 @@
 		BC0133B91C62862E00308589 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				BC0133BA1C62867E00308589 /* blankStaff.png */,
 				BC0133BE1C628A7F00308589 /* simpleNote.png */,
+				BC0133C01C62A94700308589 /* blankStaffDoubleWide.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -246,9 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC0133C11C62A94700308589 /* blankStaffDoubleWide.png in Resources */,
 				BC0133961C6284F300308589 /* LaunchScreen.storyboard in Resources */,
 				BC0133BF1C628A7F00308589 /* simpleNote.png in Resources */,
-				BC0133BB1C62867E00308589 /* blankStaff.png in Resources */,
 				BC0133931C6284F300308589 /* Assets.xcassets in Resources */,
 				BC0133911C6284F300308589 /* Main.storyboard in Resources */,
 			);
